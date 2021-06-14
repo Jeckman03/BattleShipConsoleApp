@@ -3,6 +3,11 @@ using System.Collections.Generic;
 
 public static class GameLogic
 {
+	public static bool PlaceShip(PlayerInfoModel model, string location)
+	{
+		throw new NotImplementedException();
+	}
+
 	public static void InitializeGrid(PlayerInfoModel model)
 	{
 		List<string> letters = new List<string>
