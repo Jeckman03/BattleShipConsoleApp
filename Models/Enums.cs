@@ -1,8 +1,6 @@
 using System;
 
-namespace BattleShipConsoleLibrary.Models
-{
-	public enum GidSpotStatus
+	public enum GridSpotStatus
 	{
 		Empty,
 		Ship,
@@ -10,4 +8,3 @@ namespace BattleShipConsoleLibrary.Models
 		Hit,
 		Sunk
 	}
-}

@@ -1,7 +1,6 @@
 using System;
 
-namespace BattleShipConsoleLibrary.Models
-{
+
 	public class GridSpotModel
 	{
 		public string SpotLetter { get; set; }
@@ -10,4 +9,3 @@ namespace BattleShipConsoleLibrary.Models
 		
 		public GridSpotStatus Status { get; set; } = GridSpotStatus.Empty;
 	}
-}
